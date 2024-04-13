@@ -1,0 +1,47 @@
+body {
+    background: #EAEAEA;
+}
+.banner_inner-1 {
+    padding: 20px 0px 40px 0px;
+}
+.header_area {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    transition: background 0.4s, all 0.3s linear;
+    top: 0;
+    background: #ffffff;
+}
+.container {
+    background: #ffffff;
+}
+.section_main {
+    margin-top: 100px;
+}
+.artical-text {
+    padding-bottom: 5px;
+}
+.artical-text p {
+    margin-bottom: 30px;
+}
+.first-img {
+    max-width: 525px;
+    width: 100%;
+}
+.img-article {
+    margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+    .artical-text img {
+        width: 100%;
+        max-width: 900px;
+    }
+    .banner_inner-1 {
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 525px) {
+    h1 {
+        font-size: 28px;
+    }
+}
