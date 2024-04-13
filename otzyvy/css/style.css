@@ -3366,3 +3366,8 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+@media  (max-width: 575px) {
+  footer.footer-area {
+    padding: 10px 0;
+  }
+}
