@@ -3,7 +3,7 @@
 
     switch($url[0]) {
         case '': { 
-            include 'main.html';
+            include 'index.html';
             break;
         }
         case 'policy':{
@@ -15,7 +15,7 @@
             break;
         }
         default:
-            include 'main.html';
+            include 'index.html';
             break;
     }
 ?>
