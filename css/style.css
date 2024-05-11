@@ -3369,6 +3369,7 @@ h6 {
 @media  (max-width: 575px) {
   footer.footer-area {
     padding: 10px 0;
+    margin-bottom: 0;
   }
 }
 .article-review_container {
@@ -3380,4 +3381,34 @@ h6 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+}
+
+@media (min-width: 320px) {
+  .banner_content.text-center h1 {
+    font-size: 18px;
+  }
+  .banner_content.text-center p {
+    font-size: 13px;
+  }
+}
+@media (min-width: 525px) {
+  .banner_content.text-center h1 {
+    font-size: 21px;
+  }
+  .banner_content.text-center p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 776px) {
+  .banner_content.text-center h1 {
+    font-size: 31px;
+  }
+  .banner_content.text-center p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .banner_content.text-center h1 {
+    font-size: 36px;
+  }
 }
