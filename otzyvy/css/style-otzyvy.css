@@ -1,6 +1,9 @@
 body {
     background: #EAEAEA;
 }
+.font-style-italic {
+    font-style: italic !important;
+}
 .banner_inner-1 {
     padding: 20px 0px 40px 0px;
 }

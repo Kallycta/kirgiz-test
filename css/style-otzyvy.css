@@ -31,6 +31,9 @@ body {
 .img-article {
     margin-bottom: 30px;
 }
+.font-style-italic {
+    font-style: italic !important;
+}
 @media (max-width: 991px) {
     .artical-text img {
         width: 100%;

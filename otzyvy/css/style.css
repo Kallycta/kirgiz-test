@@ -145,6 +145,7 @@ button:focus {
 .overlay {
   position: relative; }
 
+
 .overlay:after {
   position: absolute;
   left: 0;
@@ -3370,4 +3371,7 @@ h6 {
   footer.footer-area {
     padding: 10px 0;
   }
+}
+.font-style-italic {
+  font-style: italic !important;
 }
